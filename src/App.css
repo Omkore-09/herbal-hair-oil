@@ -1,0 +1,28 @@
+/* More specific styles */
+.navbar .button {
+  background-color: red;
+  color: white;
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+/* WhatsApp Icon */
+.whatsapp_float {
+  position: fixed;
+  bottom: 500px;
+  right: 20px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  color: #25D366 !important;
+  font-size: 3em !important;
+}

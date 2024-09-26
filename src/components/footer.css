@@ -1,0 +1,76 @@
+/* src/components/footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-col {
+    margin-bottom: 20px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #4CAF50; /* Herbal green */
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 50px;
+    background: #4CAF50; /* Herbal green */
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-col ul li svg {
+    margin-right: 10px;
+}
+
+.footer-col ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #d4edda; /* Light green */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #4CAF50; /* Herbal green */
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}

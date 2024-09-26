@@ -1,0 +1,32 @@
+/* src/pages/productDetail.css */
+
+.product-image {
+    /* max-width: 100%; */
+    height: 300px;
+    width: 250px;
+}
+
+h2 {
+    color: #4CAF50; /* Herbal green */
+}
+
+h3 {
+    color: #4CAF50; /* Herbal green */
+}
+
+.card-title {
+    color: #4CAF50 !important; /* Herbal green */
+}
+
+.card-text {
+    color: #666 !important;
+}
+
+.btn-success {
+    background-color: #4CAF50 !important;
+    border: none !important;
+}
+
+.btn-success:hover {
+    background-color: #45a049 !important;
+}

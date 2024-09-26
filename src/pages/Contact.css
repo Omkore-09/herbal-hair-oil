@@ -1,0 +1,27 @@
+/* src/pages/ContactUs.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.contact-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-submit {
+    background-color: #4CAF50 !important; /* Herbal green */
+    border: none !important;
+}
+
+.btn-submit:hover {
+    background-color: #45a049 !important;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .contact-image {
+        display: none;
+    }
+}

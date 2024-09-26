@@ -2,6 +2,7 @@
   "name": "herbal-oil",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Omkore-09.github.io/herbal-hair-oil",
   "type": "module",
   "scripts": {
     "dev": "vite",
